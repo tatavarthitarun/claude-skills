@@ -1,5 +1,7 @@
 # Claude Code skills
 
+![generate-ui-tests — an agent that writes its own Android UI tests](assets/banner.png)
+
 > Agentic [Claude Code](https://claude.com/claude-code) skills I build and use.
 > Currently home to **`generate-ui-tests`** — an agent that writes its own Android UI tests.
 
@@ -51,6 +53,8 @@ Run against a Jetpack Compose app on a physical Motorola device:
 - 📊 **100% screen coverage**, **~70% interactive-element coverage** (measured, not implied)
 - 🐞 The self-verify gate caught a real flake — a permission dialog stealing the window — and fixed it
   with a `GrantPermissionRule`, *proven* by revoking the permission and re-running green.
+
+![On-device test report: 11 tests, 0 failures, 100% successful](assets/test-report.png)
 
 ---
 
