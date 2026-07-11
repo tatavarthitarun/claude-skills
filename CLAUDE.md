@@ -17,6 +17,12 @@ claude-skills/
 │   └── assets/               ← this skill's images (banner.png, screenshots). Per-skill, not shared.
 ```
 
+## Public/private split
+This working copy also holds **local-only personal skills** that must never be published.
+They are listed in `.git/info/exclude` (untracked by design). Before committing a new skill,
+decide which side it belongs to: portfolio-grade/generic → commit + README row + push;
+personal-workflow → add its folder to `.git/info/exclude` and do NOT list it in the README.
+
 ## Adding a new skill
 1. `mkdir <skill-name>/` and write `<skill-name>/SKILL.md` (frontmatter `name:` must match the folder).
 2. Optionally add `<skill-name>/README.md` + `<skill-name>/assets/` for a rich doc.
