@@ -7,6 +7,8 @@
 | Skill | What it does |
 |-------|--------------|
 | [**`generate-ui-tests`**](generate-ui-tests/) | A ReAct GUI agent that drives a live Android app (screenshot + accessibility-tree reason-act loop), grounded in source, then **writes & self-verifies** Compose/Espresso + JUnit tests. Write once, run in CI with no LLM in the loop. |
+| [**`ship-project`**](ship-project/) | Ship a personal project end-to-end: `~/Projects` code + LifeOS bridge docs & symlink, public GitHub repo, product-page README, interactive HTML explainer, GitHub Pages. |
+| [**`explainer-html`**](explainer-html/) | Build a self-contained interactive HTML explainer — analogy → technical → example, step-through visualizations, quiz tab — with every control verified working. |
 
 ## Install
 Clone into your Claude Code user skills directory:
